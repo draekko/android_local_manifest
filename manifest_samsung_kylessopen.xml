@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- toolchain -->
+    <project path="prebuilt/linux-x86/toolchain/arm_sabermod-arm-eabi-4.7" name="draekko/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" revision="master" />
+
     <!-- GT-S7560M -->
-    <project path="device/samsung/kylessopen" name="jonypx09/android_device_samsung_kylessopen" revision="master" />
-    <project path="kernel/samsung/kylessopen" name="jonypx09/android_kernel_ba2x_2.0" revision="master" />
-    <project path="vendor/samsung/kylessopen" name="jonypx09/android_vendor_samsung_kylessopen" revision="master" />
+    <!-- <project path="device/samsung/kylessopen" name="draekko/android_device_samsung_kylessopen" revision="master" /> -->
+    <project path="device/samsung/kylessopen" name="draekko/android_device_samsung_kylessopen-1" revision="master" />
+    <project path="kernel/samsung/kylessopen" name="draekko/android_kernel_ba2x_2.0" revision="master" />
+    <project path="vendor/samsung/kylessopen" name="draekko/android_vendor_samsung_kylessopen" revision="master" />
 
     <!-- FM Radio -->
     <project path="hardware/qcom/fm" name="legaCyMod/android_hardware_qcom_fm" revision="cm-11.0" />
