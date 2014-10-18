@@ -4,7 +4,6 @@
     <remove-project name="CyanogenMod/android_bootable_recovery" />
     <project path="bootable/recovery" name="draekko/android_bootable_recovery" revision="android-4.4" />
 
-
     <!-- CM replacements -->
     <remove-project name="CyanogenMod/android_frameworks_av" />
     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
